@@ -224,6 +224,14 @@ citation("chiPlusZ")
 ```
 ---
 
+## Contacts
+
+**Email:** [info@biomatika.lt](mailto:info@biomatika.lt)
+
+**LinkedIn:** [www.linkedin.com/in/gabija-vaitkev](https://www.linkedin.com/in/gabija-vaitkev)
+
+---
+
 ## License
 
 MIT © Gabija Vaitkevičiūtė
