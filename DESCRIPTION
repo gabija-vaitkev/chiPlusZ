@@ -1,0 +1,29 @@
+Package: chiPlusZ
+Title: Chi-Square Tests with SPSS-Style Column Proportion Z-Tests
+Version: 0.1.0
+Authors@R: 
+    person("Gabija", "Vaitkevičiūtė", email = "info@biomatika.lt", role = c("aut", "cre"))
+Description: Provides an R implementation of SPSS's "Compare Column 
+    Proportions" procedure for two-way contingency tables. Given a 
+    long-format data frame, the package builds a contingency table, 
+    performs a Chi-squared test of independence, computes Cramér's V 
+    as an effect size measure, and runs pairwise column-proportion 
+    Z-tests with Bonferroni correction. Results are summarised using 
+    compact letter displays (CLD), where columns sharing a letter do 
+    not differ significantly in their proportions. An optional export 
+    to a formatted Excel workbook is provided, containing the 
+    Chi-squared statistics, Cramér's V, observed and expected counts, 
+    row percentages, CLD letters, and a pairwise comparison table with 
+    significant comparisons highlighted.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    multcompView (>= 0.1-11),
+    openxlsx (>= 4.2.8.1),
+    stats,
+    utils
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0
